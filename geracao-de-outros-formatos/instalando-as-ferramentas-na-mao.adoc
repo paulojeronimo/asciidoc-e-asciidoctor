@@ -1,0 +1,37 @@
+[[instalando-as-ferramentas-na-mao]]
+= Instalando as ferramentas "na mão" (sem o uso do Docker)
+
+Para instalar as ferramentas do Asciidoctor, você precisará do {uri-bash}[Bash] e do {uri-ruby}[Ruby] instalados.
+
+No Windows, uma forma de você ter essas ferramentas instaladas é utilizando o {uri-cygwin}[Cygwin]. Mas, fique atento: nesse ambiente, algumas gems nativas do Ruby (utilizados pelo Asciidoctor) simplesmente dão muito trabalho para serem compiladas. Então, é mais recomendável a "<<utilizando-um-conteiner-docker>>". Mesmo assim, se você for aventureiro e desbravador, siga os procedimentos de instalação do Cygwin podem ser encontrados na página https://github.com/paulojeronimo/dicas-windows/blob/master/instalacao-cygwin.asciidoc["Instalação do Cygwin"], escrita por Paulo Jerônimo, e vá em frente com a instalação.
+
+No Linux (e no OS X), o Bash costuma ser o shell padrão.
+
+A instalação do Ruby, no Linux, depende da distribuição utilizada. No Fedora, uma forma de instalar o Ruby é via {uri-rvm}[RVM]. Os procedimentos para isso podem ser encontrados na página https://github.com/paulojeronimo/dicas-linux/blob/master/instalacao-ruby-via-rvm.asciidoc["Instalação do Ruby via RVM (no Fedora 23)"], escrita por Paulo Jerônimo.
+
+No OS X, a instalação do Ruby pode ser realizada de forma semelhante a feita no Linux, através do {uri-rvm}[RVM].
+
+Após ter instalado o Ruby, instale o {uri-asciidoctor}[asciidoctor]:
+
+[source,bash]
+----
+gem install asciidoctor
+----
+
+Instale o {uri-asciidoctor-pdf}[asciidoctor-pdf]:
+
+[source,bash]
+----
+gem install asciidoctor-pdf --pre
+----
+
+NOTE: Há mais detalhes na página do projeto (leia).
+
+Instale o {uri-asciidoctor-epub3}[asciidoctor-epub3]:
+
+[source,bash]
+----
+NOKOGIRI_USE_SYSTEM_LIBRARIES=1 gem install asciidoctor-epub3 --pre
+----
+
+NOTE: Há mais detalhes na página do projeto (leia).

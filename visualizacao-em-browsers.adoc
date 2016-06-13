@@ -1,0 +1,6 @@
+[[visualizacao-em-browsers]]
+= Visualização direta em browsers
+
+Através da instalação da extensão __Asciidoctor.js Live Preview__ {uri-asciidoctor-js-live-preview}[para o Google Chrome] ou {uri-asciidoctor-js-live-preview-firefox}[para o Firefox], esses browsers obtêm suporte para a visualização do formato AsciiDoc.
+
+Instalando essas extensões nos browsers você conseguirá, a partir dos documentos em AsciiDoc, fazer sua leitura no formato HTML.

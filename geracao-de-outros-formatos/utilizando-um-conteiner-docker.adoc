@@ -1,0 +1,14 @@
+[[utilizando-um-conteiner-docker]]
+= Utilizando um contêiner Docker
+
+Essa forma é preferível em sistemas Windows por não exigir nenhuma outra instalação senão a do Docker.
+
+Instale o {uri-docker}[Docker] no teu sistema operacional.
+
+Abrindo um shell {uri-bash}[Bash], você poderá executar a linha de comando a seguir. Ela inciará um contêiner Docker preparado para a geração de HTML a partir dos documentos AsciiDoc. (Se você não estiver num shell Bash substitua o `$(pwd)` pelo caminho completo para o diretório corrente).
+[source,bash]
+----
+docker run -it -v "$(pwd)":/documents/ asciidoctor/docker-asciidoctor
+----
+
+Após a execução do comando acima você estará num shell Bash, dentro desse contêiner. Daí você poderá executar comandos como `asciidoctor`, `asciidoctor-pdf`, `asciidoctor-epub3` para gerar os documentos.

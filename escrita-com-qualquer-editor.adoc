@@ -1,0 +1,16 @@
+[[escrita-com-qualquer-editor]]
+= Escrita (com qualquer editor de textos)
+
+Essa é uma lista, incompleta, de editores de texto comuns que suportam a edição de documentos no formato AsciiDoc:
+
+* {uri-asciidocfx}[AsciidocFX]
+* {uri-vim}[Vim]
+* {uri-sublime}[Sublime]
+* {uri-atom}[Atom]
+* {uri-notepad-plus-plus}[Notepad++]
+* {uri-gedit}[gedit]
+
+Também é possível a edição de documentos no formato AsciiDoc utilizando sites na Internet. Essa é uma lista, incompleta, de sites que oferecem este recurso:
+
+* http://gist.asciidoctor.org/
+* http://www.noteshare.io/ -> Este site facilita a edição, de forma colaborativa, de grandes documentos no formato AsciiDoc.
