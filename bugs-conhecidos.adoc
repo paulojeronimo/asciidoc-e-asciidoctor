@@ -1,0 +1,10 @@
+[[bugs-conhecidos]]
+= Bugs conhecidos
+
+Durante a geração de outros formatos podem ocorrer alguns bugs. Há várias __issues__ abertas nos {uri-asciidoctor-github}[projetos do asciidoctor]. Mas, a {uri-asciidoctor-github-people}[comunidade de desenvolvedores] é bastante atuante nos problemas.
+
+Apresento, abaixo, uma lista com alguns problemas.
+
+== Utilizando o asciidoctor-pdf
+
+. https://github.com/asciidoctor/asciidoctor-pdf/issues/6[As céluas das tabelas não apresentam, adequadamente, um conteúdo AsciiDoc].
