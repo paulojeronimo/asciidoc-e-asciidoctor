@@ -1,0 +1,14 @@
+[[casos-de-uso]]
+= Casos de uso
+
+Segue uma lista com alguns casos de uso interessantes sobre o formato AsciiDoc e sobre a ferramenta Asciidoctor.
+
+== E-books
+
+* https://www.infoq.com/minibooks/jhipster-mini-book[The JHipster Mini-book (InfoQ)].
+** https://github.com/mraible[Matt Raible] explica como criou esse mini-book no vídeo https://www.youtube.com/watch?v=mVFr3RzBPu8. Fontes em https://github.com/mraible/infoq-mini-book.
+
+== Apresentações rodando diretamente no browser
+
+* https://github.com/mojavelinux[Dan Allen] possiu um http://mojavelinux.github.io/decks/[conjunto de apresentações] muito interessantes que ele produziu para eventos que participou. Fontes em https://github.com/mojavelinux/decks.
+* http://github.com/paulojeronimo[Paulo Jerônimo] criou a apresentação http://htmlpreview.github.io/?https://github.com/paulojeronimo/join-community-2014/blob/master/slides.html["Criando e publicando sites no GitHub Pages com Asciidoctor e Awestruct"], em 2014. Nela são citadas vários outras apresentações. Fontes em https://github.com/paulojeronimo/join-community-2014/.
