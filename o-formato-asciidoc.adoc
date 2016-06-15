@@ -21,4 +21,4 @@ A melhor forma de aprender sobre o formato AsciiDoc é ler seus manuais e, obvia
 
 Também é muito importante a leitura do http://asciidoctor.org/docs/user-manual/["Asciidoctor User Manual"] e existe, ainda, o livro {uri-asciidoctor-notebook}["Awesome Asciidoctor Notebook"], gratuito, para você se aprofundar ainda mais.
 
-NOTE: Esta introdução que você está lendo faz parte de outro documento, mais completo, disponível em http://paulojeronimo.github.io/asciidoc-e-asciidoctor.
+NOTE: Esta introdução faz parte de outro documento, mais completo, cuja visualização no formato HTML é pública e está disponível em {uri-deste-documento}. A {uri-deste-documento-em-pdf}[versão em PDF] também está disponível, assim como o seu {uri-deste-documento-em-asciidoc}[código fonte no formato AsciiDoc].
