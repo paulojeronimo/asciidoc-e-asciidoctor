@@ -1,0 +1,17 @@
+#!/bin/bash
+
+g=arquivos-gerados
+msg="Publicação em `date +"%d/%m/%Y às %H:%M:%S"`"
+
+for bin in asciidoctor asciidoctor-pdf
+do
+    $bin -D $g index.adoc
+done
+
+cd $g
+git commit -am "$msg"
+git push origin HEAD:gh-pages
+cd ..
+git add $g
+git commit -m "$msg"
+git push
