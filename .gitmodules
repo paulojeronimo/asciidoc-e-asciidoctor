@@ -1,0 +1,4 @@
+[submodule "arquivos-gerados"]
+	path = arquivos-gerados
+	url = https://github.com/paulojeronimo/asciidoc-e-asciidoctor
+	branch = gh-pages
