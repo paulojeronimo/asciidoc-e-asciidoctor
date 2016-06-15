@@ -1,8 +1,13 @@
 = AsciiDoc e Asciidoctor
-Paulo Jerônimo, paulojeronimo@gmail.com
+Paulo Jerônimo <paulojeronimo@gmail.com>
 {localdate}
-
+:toc: macro
+:toc-title: Conteúdo
+:toclevels: 3
+:numbered:
 include::uris.conf[]
+
+toc::[]
 
 :leveloffset: +1
 
@@ -13,5 +18,7 @@ include::visualizacao-em-browsers.adoc[]
 include::escrita-com-qualquer-editor.adoc[]
 
 include::geracao-de-outros-formatos/index.adoc[]
+
+include::bugs-conhecidos.adoc[]
 
 :leveoffset: -1
