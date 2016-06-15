@@ -5,6 +5,7 @@ Paulo Jerônimo <paulojeronimo@gmail.com>
 :toc-title: Conteúdo
 :toclevels: 3
 :numbered:
+:icons: font
 include::uris.conf[]
 
 toc::[]
