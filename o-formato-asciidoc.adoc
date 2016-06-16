@@ -1,4 +1,9 @@
-[[formato-asciidoc]]
+// NOTA IMPORTANTE:
+////
+Este documento foi criado para ser incluído em outros, como uma introdução sobre o formato AsciiDoc. Sendo assim, é importante que ele não contenha links internos (âncoras) para outros documentos deste repositório pois, possivelmente, eles não serão incluídos. Fazer isso evita "quebras" que poderiam ocorrer no documento que o inclui no momento de sua geração para o formato PDF.
+Caso haja a necessidade de âncoras, uma forma de simulá-las é através de links com a versão publicada em {uri-deste-documento}.
+////
+[[o-formato-asciidoc]]
 = O formato AsciiDoc
 
 Mundialmente aceito e difundido na produção de documentos, como artigos, manuais, apresentações, livros, etc, o {uri-asciidoc}[formato AsciiDoc] é muito útil para a **produção ágil e colaborativa de documentos**. Por ser um formato escrito em texto puro, contendo marcações para representar coisas como títulos, listas, figuras, links, etc, quaisquer alterações realizadas num documento que tenha esse formato pode ser visualizada por um número sem fim de ferramentas que possibilitam comparar a diferença entre dois textos.
@@ -9,7 +14,7 @@ Documentos em AsciiDoc podem ser fracionados para ter uma edição mais focada. 
 
 Um documento AsciiDoc podem conter gráficos, imagens, vídeos (útil para geração no formato {uri-epub}[EPUB]), {uri-mathjax}[MathJax], {uri-asciimath}[AsciiMath], {uri-tex-latex}[Tex/LaTex], http://epsilon.my.noteshare.io/section/chemistry-jc[fórmulas químicas], etc. Além disso é possível compor um documento AsciiDoc inserindo, dentro dele, linhas específicas de outros arquivos (por exemplo, código fonte).
 
-O formato AsciiDoc pode ser facilmente apresentado e convertido para outros formatos, como {uri-docbook}[DocBook], HTML, PDF, EPUB e {uri-kf8-mobi}[KF8/MOBI]. No caso da conversão para HTML, essa tarefa pode, até mesmo, ser realizada por browsers através da <<visualizacao-em-browsers,instalação de plugins>>.
+O formato AsciiDoc pode ser facilmente apresentado e convertido para outros formatos, como {uri-docbook}[DocBook], HTML, PDF, EPUB e {uri-kf8-mobi}[KF8/MOBI]. No caso da conversão para HTML, essa tarefa pode, até mesmo, ser realizada por browsers através da {uri-deste-documento}/#visualizacao-em-browsers[instalação de plugins].
 
 O {uri-github}[GitHub], um gerenciador de repositórios Git, reconhece o formato AsciiDoc e gera, automaticamente, versões HTML para documentos nesse formato. O {uri-gitlab}[GitLab], outro gerenciador, possui https://gitlab.com/gitlab-org/gitlab-ce/issues/10778[uma issues aberta] para que também sejam realizadas integrações com o formato. Espera-se que, em breve, vários outros gerenciadores de repositórios, como {uri-bitbucket}[BitBucket], {uri-tfs}[TFS], etc, também estejam interpretando este formato tão bem quanto já o fazem para o formato {uri-markdown}[Markdown].
 
