@@ -4,11 +4,11 @@
 Essa é uma lista, incompleta, de editores de texto comuns que suportam a edição de documentos no formato AsciiDoc:
 
 * {uri-asciidocfx}[AsciidocFX]
-* {uri-vim}[Vim]
+* {uri-vim}[Vim] _{uri-vim-asciidoc-plugin}[plugin]_
 * {uri-sublime}[Sublime]
 * {uri-atom}[Atom]
-* {uri-notepad-plus-plus}[Notepad++]
-* {uri-gedit}[gedit]
+* {uri-notepad-plus-plus}[Notepad++] _{uri-notepad-plus-plus-asciidoc-plugin}[plugin]_
+* {uri-gedit}[gedit] _{uri-gedit-asciidoc-plugin}[plugin]_
 
 Também é possível a edição de documentos no formato AsciiDoc utilizando sites na Internet. Essa é uma lista, incompleta, de sites que oferecem este recurso:
 
